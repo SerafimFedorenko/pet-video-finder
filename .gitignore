@@ -1,0 +1,37 @@
+# Виртуальные окружения (в т.ч. старое окружение в корне проекта)
+.venv/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Логи и результаты запусков
+*.log
+runs/
+feat_extractor.keras
+*_best_model.keras
+*_pair_model.keras
+
+# Обученные модели и локальные датасеты (не храним в git)
+*.keras
+*.pkl
+cats/
+dogs/
+cats data files/
+dogs data files/
+test_data/
+doge.jpg
+
+# Кэш Hugging Face, если его положат внутрь проекта
+.cache/
+hf_cache/
