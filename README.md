@@ -1,5 +1,7 @@
 # Pet Video Finder — поиск животных на видео
 
+**GitHub:** https://github.com/SerafimFedorenko/pet-video-finder
+
 Приложение с графическим интерфейсом (Tkinter), которое:
 
 1. находит кошек или собак на видео с помощью YOLOv8;
